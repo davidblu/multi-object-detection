@@ -20,8 +20,8 @@ To run the notebook, you need the following packages installed:
 ## Code organization
 
     .
-    ├── demo.ipynb              # To showing how well our model perform on a single image
-    ├── train.ipynb             # For a full traininng on the VOC 2007 & 2012 training dataset
+    ├── demo.ipynb              # To show how well our model performs on a single image
+    ├── train.ipynb             # For a full training on the VOC 2007 & 2012 training dataset
     ├── result                  # Folder contains predicted result / training loss / validation loss
     ├── model                   # Folder contains pretrained models
     ├── src                     # Python scripts
@@ -30,7 +30,7 @@ To run the notebook, you need the following packages installed:
     │   ├── net.py              # Define various VGG models
     │   ├── nntools.py          # Useful modules for deep learning
     │   ├── plot.py             # Plot training / validation loss
-    │   ├── predict.py          # Make the prediction on single image
+    │   ├── predict.py          # Make the prediction on a single image
     │   ├── resnet_yolo.py      # Define various resnet models
     │   ├── xml_2_txt.py        # Convert .xml to .txt file
     │   └── yoloLoss.py         # Module implementing yolo loss function 
@@ -45,7 +45,7 @@ To run the notebook, you need the following packages installed:
 
 ### Steps
 
-1. To run the full training, you will have to download the folder `assets` as mentioned in Intalling Section and put it in this repository.
+1. To run the full training, you will have to download the folder `assets` as mentioned in Installing Section and put it in this repository.
 2. If you do not want to train the model yourself, you can also download the folder `model` as mentioned in Installing Section and overwrite the folder `model` in this repository.
 3. Run the following command to see how the model performs on the VOC2007 testing dataset.
 ```
