@@ -14,7 +14,7 @@ To run the notebook, you need the following packages installed:
 
 ### Installing
 
-* Download the training, validation, and testing dataset [here](https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing) on Google Drive.
+* Download the full dataset [here](https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing) on Google Drive.
 * Download the trained model [here](https://drive.google.com/drive/folders/1oUUUSJq1h5hZItsM-euEJjwOLvCKaQck?usp=sharing) on Google Drive.
 
 ## Code organization
@@ -42,6 +42,15 @@ To run the notebook, you need the following packages installed:
 
 * For a quick demo, run the Jupyter Notebook `demo.ipynb`.
 * For a full training on the dataset, run the Jupyter Notebook `train.ipynb`.
+
+### Steps
+
+1. To run the full training, you will have to download the folder `assets` as mentioned in Intalling Section and put it in this repository.
+2. If you do not want to train the model yourself, you can also download the folder `model` as mentioned in Installing Section and overwrite the folder `model` in this repository.
+3. Run the following command to see how the model performs on the VOC2007 testing dataset.
+```
+python eval_voc.py
+```
 
 ## Authors
 
