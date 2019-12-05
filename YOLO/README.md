@@ -22,7 +22,8 @@ To run the notebook, you need the following packages installed:
     .
     ├── demo.ipynb              # To showing how well our model perform on a single image
     ├── train.ipynb             # For a full traininng on the VOC 2007 & 2012 training dataset
-    ├── result                  # Folder contains predicted result / training loss / validation loss 
+    ├── result/                 # Folder contains predicted result / training loss / validation loss
+    ├── model/                  # Folder contains pretrained models
     ├── src                     # Python scripts
     │   ├── dataset.py          # Define user dataset
     │   ├── eval_voc.py         # Evaluate the performance of the model
