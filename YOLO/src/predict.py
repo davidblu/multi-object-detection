@@ -266,10 +266,7 @@ def decoder_vgg(pred):
 if __name__ == '__main__':
     model = resnet50()
     print('load model...')
-    model.load_state_dict(torch.load('best3.pth'))
-    #checkpoint = torch.load("yolo/checkpoint.pth.tar")
-    #model.load_state_dict(checkpoint['Net'])
-    #print(model)
+    model.load_state_dict(torch.load('best_resnet50.pth'))
     model.eval()
     model.cuda()
     #image_name = '/datasets/ee285f-public/PascalVOC2012/JPEGImages/2009_000096.jpg'
