@@ -1,5 +1,5 @@
-#  YOLO Model
-Multi-Object Detection using YOLO
+#  Multi-Object Detection using YOLO
+Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*. Furthermore, we analyze the performance of two different backbone models.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ To run the notebook, you need the following packages installed:
 
 ### Installing
 
-* Download the training, validation, and testing dataset on [here]((https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing)) on Google Drive.
+* Download the training, validation, and testing dataset [here](https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing)) on Google Drive.
 
 * Download the trained model [here](https://drive.google.com/drive/folders/1oUUUSJq1h5hZItsM-euEJjwOLvCKaQck?usp=sharing) on Google Drive.
 
