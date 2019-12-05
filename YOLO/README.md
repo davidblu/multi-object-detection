@@ -1,5 +1,7 @@
 #  Multi-Object Detection using YOLO
-Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*. Furthermore, we analyze the performance of two different backbone models.
+Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*.
+
+Furthermore, we analyze the performance of two different backbone models.
 
 ## Getting Started
 
@@ -43,6 +45,7 @@ To run the notebook, you need the following packages installed:
 ### Executable Files
 
 For a quick demo, run the Jupyter Notebook `demo.ipynb`.
+
 For a full training on the dataset, run the Jupyter Notebook `train.ipynb`.
 
 
