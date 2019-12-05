@@ -1,7 +1,5 @@
 #  Multi-Object Detection using YOLO
-Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*.
-
-Furthermore, we analyze the performance of two different backbone models.
+Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*. Furthermore, we analyze the performance of two different backbone models.
 
 ## Getting Started
 
@@ -17,7 +15,6 @@ To run the notebook, you need the following packages installed:
 ### Installing
 
 * Download the training, validation, and testing dataset [here](https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing) on Google Drive.
-
 * Download the trained model [here](https://drive.google.com/drive/folders/1oUUUSJq1h5hZItsM-euEJjwOLvCKaQck?usp=sharing) on Google Drive.
 
 ## Code organization
@@ -38,16 +35,12 @@ To run the notebook, you need the following packages installed:
     │   └── yoloLoss.py         # Module implementing yolo loss function 
     └── README.md
 
-
-
 ## Running the tests
 
 ### Executable Files
 
-For a quick demo, run the Jupyter Notebook `demo.ipynb`.
-
-For a full training on the dataset, run the Jupyter Notebook `train.ipynb`.
-
+* For a quick demo, run the Jupyter Notebook `demo.ipynb`.
+* For a full training on the dataset, run the Jupyter Notebook `train.ipynb`.
 
 ## Authors
 
